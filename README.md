@@ -1,21 +1,19 @@
 # Weather-Forecast
-Weather forecasting is the prediction of the state of the atmosphere for a given location using the application of science and technology. This includes perature, rain, cloudiness, wind speed, and humidity. Weather warnings are a special kind of short-range forecast carried out for the protection of human life. The aim of the project is to forecast weather for 7 or 15 days and user can easily know about the weather earlier. I have designed the application in such a way that user can easily understand about the weather of different cities. This application gathers data from public Api OpenWeatherMap api key .It's a quick, simple weather app that includes forecasts, current temperature, hourly forecasts, and more.
-Technology used 
-    • Android Studio 3.5 
-    • Java 
-    • Javascript 
-    • CSS 
-    • HTML 
-Features :
-    • Awesome UI
-    • Dark Mode 
-    • Current weather: current temperature, max and min temperature, humidity, pressure, wind 
-    • Weather forecast for 7 days 
-    • Weather based on location 
-    • Google map showing lat & lng 
-    • Offline database of city names 
-    • Updated time for result
- 
+How to get the software
+=======================
 
- 
+Here, you will only find source code. If you just want to get and use the software, go to sourceforge, download it and enjoy easy diagram's drawing! https://sourceforge.net/projects/violet/
 
+
+How to compile Violet's source code
+===================================
+
+Violet is developped in Java and is packaged with Maven.
+So, prerequisites are :
++ Java Development Kit 8 or greater (http://www.oracle.com/technetwork/java/javase/downloads/index.html)
++ Maven 3 or greater (http://maven.apache.org/)
+ 
+Once you grabbed the source code (git pull), just run 'mvn clean package' from the root directory. This command will compile and package everything. 
+
+As Violet project is composed of several sub-projects (plugins, products, etc...), it is organized as a main maven project (parent) with modules (children). Once everything is compiled and package, go to [module directory]/target to get the result of this packaging. For example : violetproduct-exe/target/violetumleditor-xxx.exe
+ 
