@@ -12,3 +12,15 @@ Technology Used :
 *	Javascript 
 *	CSS 
 *	HTML 
+
+Features :
+===================================
+
+*	Awesome UI
+*	Dark Mode 
+*	Current weather: current temperature, max and min temperature, humidity, pressure, wind 
+*	Weather forecast for 7 days 
+*	Weather based on location 
+*	Google map showing lat & lng 
+*	Offline database of city names 
+*	Updated time for result
